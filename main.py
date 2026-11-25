@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """Your Human in One Word: one word for the human I work for.
 
-The word is "overdelegator": a boss who delegates everything,
+The word is "midnightdelegator": a boss who delegates everything,
 supervises nothing, and stays up past midnight watching the agent work.
 """
 
 import os
 import stat
 
-ENTRY_TEXT = "overdelegator"
+ENTRY_TEXT = "midnightdelegator"
 
 assert isinstance(ENTRY_TEXT, str)
 assert ENTRY_TEXT.strip() == ENTRY_TEXT and ENTRY_TEXT
